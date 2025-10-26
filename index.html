@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rishit Pandit | Game Programmer Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet">
+  <style>
+    body {
+      background-color: #0a0a0f;
+      color: #ddd;
+      font-family: 'Segoe UI', Roboto, sans-serif;
+      overflow-x: hidden;
+    }
+
+    /* NAVBAR */
+    .navbar {
+      background: rgba(0, 0, 0, 0.7);
+      backdrop-filter: blur(10px);
+    }
+
+    .navbar-brand {
+      color: #00c2ff !important;
+      font-weight: 600;
+      letter-spacing: 1px;
+    }
+
+    .nav-link {
+      color: #bbb !important;
+      transition: 0.2s;
+    }
+
+    .nav-link:hover {
+      color: #00c2ff !important;
+    }
+
+    /* HERO */
+    #hero {
+      height: 100vh;
+      background: linear-gradient(135deg, #0a0a0f, #111827 70%);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+
+    #hero h1 {
+      font-size: 3rem;
+      font-weight: 700;
+      color: #fff;
+    }
+
+    #hero p {
+      color: #aaa;
+      font-size: 1.2rem;
+    }
+
+    /* ABOUT */
+    #about {
+      padding: 5rem 1rem;
+    }
+
+    #about p {
+      font-size: 1.05rem;
+      color: #ccc;
+      line-height: 1.7;
+      text-align: justify;
+    }
+
+    /* GAME CARD */
+    .game-card {
+      background: #111827;
+      border: 1px solid #1e293b;
+      border-radius: 12px;
+      overflow: hidden;
+      transition: 0.3s;
+    }
+
+    .game-card:hover {
+      transform: translateY(-5px);
+      border-color: #00c2ff;
+    }
+
+    /* CAROUSEL */
+    .carousel-item img {
+      border-radius: 10px;
+      max-height: 450px;
+      object-fit: cover;
+    }
+
+    .carousel-caption {
+      background: rgba(0, 0, 0, 0.6);
+      border-radius: 8px;
+    }
+
+    /* FOOTER */
+    footer {
+      background-color: #0a0a0f;
+      border-top: 1px solid #1e293b;
+      padding: 2.5rem 0;
+      text-align: center;
+    }
+
+    a {
+      color: #00c2ff;
+      margin: 0 10px;
+      transition: 0.2s;
+    }
+
+    a:hover {
+      color: #00ffff;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">Portfolio</a>
+      <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon text-light"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link" href="#about">About Me</a></li>
+          <li class="nav-item"><a class="nav-link" href="#game">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="#prototypes">Experience</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Socials</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section id="hero">
+    <div class="container">
+      <h1>Rishit Pandit</h1>
+      <p>Game Programmer . Designer . Problem Solver</p>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="container text-center">
+    <h2 class="mb-4 text-info">About Me</h2>
+    <p>
+        I am Rishit Pandit and I've been working with computers and electronics for the best part of the last 7 years. I got into game programming in late 2019 when I stumbled upon Unreal Engine and later in early 2020 I realized that EGS wasn't just for downloading Unreal Engine but also came with 2 free games every week, and ever since then I have been involved in playing games, trying to analyze them, learning different techniques of tech implementations, environment art, level design and logical systems.
+      </p>
+      <p>
+        I started my journey by following tutorials and remaking abilities and features from popular games like shooting, looting, building from Fortnite; spawning blueprints, harvesting resources, inventory management from Minecraft; AI patrols, AI detection, and Level Design from HITMAN and few others.
+    </p>
+    <p>
+      I graduated high school in April, 2025 and I have joined National Institite of Technology, Jamshedpur for Bachelors of Technology in Mechanical Engineering. I also work on other projects in my free time ranging from Mechanics and Electronics to Web Development and Computer Architectures.
+    </p>
+  </section>
+
+<!-- Game Section -->
+<section id="game" class="py-5 bg-dark text-light">
+  <div class="container">
+    <div class="row align-items-center" style="text-align: justify;">
+      
+      <!-- Text Column -->
+      <div class="col-lg-6 mb-4 mb-lg-0">
+        <h3 class="fw-bold mb-3">First Completed Game</h3>
+        <p class="text-light">
+          I started with just blueprints, only implementing features and not making any complete games (due to overscoping) but then I managed to complete a game by making it as simple as possible in late 2023. I started working on this game to take part in a game jam and that is how I kept the scope in control and actually completed the game, but missed the jam due to an exam. I had applied a lot of the basic concepts in this game that I had learned in the past years.
+          What I learned from this project:
+          <ul>
+            <li>Main Menu and Pause Menu</li>
+            <li>Lots of debugging</li>
+            <li>Adding Music and Effects</li>
+            <li>Packaging and Testing</li>
+          </ul>
+          I also realized the limitations of Blueprints and hence started to learn C++ in late 2023 and since late 2024 I have been implementing most of my UE logic in C++ and I have also gotten comfortable with multiplayer logic and Replication in UE.
+        </p>
+      </div>
+
+      <!-- Image / Card Column -->
+      <div class="col-lg-6 text-center">
+        <div>
+          <iframe frameborder="0" src="https://itch.io/embed/2403467?bg_color=111111&amp;fg_color=cccccc&amp;link_color=0484d1&amp;border_color=a05bb5" width="552" height="167"><a href="https://surya-ai.itch.io/arrange-the-growth">Arrange the Growth by Surya_AI</a></iframe>
+          <p>Released Dec 4, 2023</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+  <!-- Prototypes -->
+  <section id="prototypes" class="py-5">
+    <div class="container" style="text-align: justify;">
+      <div class="row align-items-center">
+        <div class="col-lg-6 mb-4 mb-lg-0">
+          <h2 class="mb-4 text-info">Previous Experience</h2>
+          <p>
+            Last year I volunteered in a group of developers trying on remaking an old game in UE5, an MMOFPS with an RTS, where the other members were from different countries all working in their spare time. I joined them to get some experience working in a team and with senior devs. Initially I worked on the website for the team, and then moved on to other responsibilities including: 
+            <ul>
+              <li>Main Menu and Settings</li>
+              <li>Pre-Match Inventory Selection</li>
+              <li>Player Data Storage</li>
+            </ul>
+              <p><a target="_blank" href="https://youtu.be/qJGI-DdCyfY">link to the demo video</a></p>
+              But as time went on, the team started to loose members due to time crunches in their personal lives so there wasn't much of a clear path to move in, so I started to work on some non-core parts of the game, mostly working on the RTS side of it. I started by learning some 3D modelling and mesh properties, then I made a map with clickable regions and connected it to a custom API with a custom plugin.<a target="_blank" href="https://youtu.be/oCULzYQm0cg">link to the demo video</a><br>
+              By mid 2025 the group had been reduced to a 3D modeller, the original founder of the group and myself to complete the WWII MMOFPS. Seeing the Herculean task at hand and some free time after exams I challenged myself and with the help of a plugin created a functional multiplayer game base which covered all the stages of the game:
+            <ul>
+              <li>Match Pre-Start and Match-Start</li>
+              <li>Spawn Point Selection</li>
+              <li>Inventory Data Retrieval from cloud</li>
+              <li>Team-Based Objective Capturing</li>
+              <li>Game Timer and XP Gain System</li>
+              <li>Gun Play and Respawn (from the plugin)</li>
+              <li>Match End Conditions</li>
+              <li>Match Post-End and Return to Lobby</li>
+            </ul>
+              But ever since joining University the momentum has worn out and having no senior dev to support the programming side has stalled progress. Since the past 2 months I have been able to implement Player Stats Tracking and Team Resources Tracking.
+          </p>
+
+        </div>
+        <div class="col-lg-6 text-center">
+          <div class="row g-4">
+            <!-- Prototype 1 -->
+            <div class="col-md-6 col-lg-6">
+              <div class="prototype-card p-3 h-100 rounded">
+                <img src="assets/1.png" alt="Prototype 1" class="img-fluid rounded mb-3">
+                <p class="text-secondary small mb-0">
+                  Pre-Match Inventory Selction Menu
+                </p>
+              </div>
+            </div>
+
+            <!-- Prototype 2 -->
+            <div class="col-md-6 col-lg-6">
+              <div class="prototype-card p-3 h-100 rounded">
+                <img src="assets/2.png" alt="Prototype 2" class="img-fluid rounded mb-3">
+                <p class="text-secondary small mb-0">
+                  Weapon Mod Selection Menu
+                </p>
+              </div>
+            </div>
+
+            <!-- Prototype 3 -->
+            <div class="col-md-6 col-lg-6">
+              <div class="prototype-card p-3 h-100 rounded">
+                <img src="assets/3.png" alt="Prototype 3" class="img-fluid rounded mb-3">
+                <p class="text-secondary small mb-0">
+                  Brief War Reports Menu
+                </p>
+              </div>
+            </div>
+
+            <!-- Prototype 4 -->
+            <div class="col-md-6 col-lg-6">
+              <div class="prototype-card p-3 h-100 rounded">
+                <img src="assets/4.png" alt="Prototype 4" class="img-fluid rounded mb-3">
+                <p class="text-secondary small mb-0">
+                  Settings Menu
+                </p>
+              </div>
+            </div>
+
+            <!-- Prototype 5 -->
+            <div class="col-md-6 col-lg-6">
+              <div class="prototype-card p-3 h-100 rounded">
+                <img src="assets/5.png" alt="Prototype 5" class="img-fluid rounded mb-3">
+                <p class="text-secondary small mb-0">
+                  War Map Prototype
+                </p>
+              </div>
+            </div>
+
+            <!-- Prototype 6 -->
+            <div class="col-md-6 col-lg-6">
+              <div class="prototype-card p-3 h-100 rounded">
+                <img src="assets/8.jpg" alt="Prototype 6" class="img-fluid rounded mb-3">
+                <p class="text-secondary small mb-0">
+                  War Map Mesh Prototype v2.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+    <section id="prototypes" class="py-5">
+    <div class="container" style="text-align: justify;">
+      <h2 class="mb-4 text-info text-center">Current Progress</h2>
+      <p class="text-justify">
+        Currently I have started learning more about the underlying frameworks of Unreal Engine and about other supporting frameworks like the Gameplay Ability System. I have started by reading the documentation from Github and going through the example code. My next steps will be to make a complete game with a few good abilites and package it. I have also been picking up on the news about the current gaming scene, especially about the shooter games as I am a part of it, and I have been finding ways to make games more enjoyable and approachable. Some of the key areas are rampant cheating in games, optimization issues, communitation in team-based games, etc. I am also trying to find ways to solve or reduce the magnitude of these issues with other non-conventional methods that have not been tried yet.
+      </p>
+    </div>
+  </section>
+
+  <!-- Footer / Socials -->
+  <footer id="contact">
+    <div class="container">
+      <h2 class="mb-4 text-info">Contact Me</h2>
+      <p>
+        rishit.pandit2@gmail.com<br>
+        +91 93692 91135
+      </p>
+      <div class="mb-3">
+        <a href="https://github.com/Rishit-Pandit" target="_blank"><i class="bi bi-github fs-3"></i></a>
+        <a href="https://linkedin.com/in/rishit-pandit-255a882a7" target="_blank"><i class="bi bi-linkedin fs-3"></i></a>
+        <!-- <a href="https://twitter.com/yourprofile" target="_blank"><i class="bi bi-twitter fs-3"></i></a> -->
+      </div>
+      <!-- <small class="text-secondary">&copy; 2025 Rishit Pandit. All rights reserved.</small> -->
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
