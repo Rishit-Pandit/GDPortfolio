@@ -146,7 +146,7 @@
   <section id="about" class="container text-center">
     <h2 class="mb-4 text-info">About Me</h2>
     <p>
-        I am Rishit Pandit and I've been working with computers and electronics for the best part of the last 7 years. I got into game programming in late 2019 when I stumbled upon Unreal Engine and later in early 2020 I realized that EGS wasn't just for downloading Unreal Engine but also came with 2 free games every week, and ever since then I have been involved in playing games, trying to analyze them, learning different techniques of tech implementations, environment art, level design and logical systems.
+        I am Rishit Pandit and I've been working with computers and electronics for the best part of the last 8 years. I got into game programming in late 2019 when I stumbled upon Unreal Engine and later in early 2020 I realized that EGS wasn't just for downloading Unreal Engine but also came with 2 free games every week, and ever since then I have been involved in playing games, trying to analyze them, learning different techniques of tech implementations, environment art, level design and logical systems.
       </p>
       <p>
         I started my journey by following tutorials and remaking abilities and features from popular games like shooting, looting, building from Fortnite; spawning blueprints, harvesting resources, inventory management from Minecraft; AI patrols, AI detection, and Level Design from HITMAN and few others.
@@ -163,17 +163,17 @@
       
       <!-- Text Column -->
       <div class="col-lg-6 mb-4 mb-lg-0" style="color: #eee;">
-        <h3 class="fw-bold mb-3">First Completed Game</h3>
+        <h3 class="fw-bold mb-3">Current Work</h3>
         <p>
-          I started by implementing features in blueprints but couldn't complete any game (due to scope creep) but then I learned my lesson and managed to complete a game by making it as simple as possible in late 2023. I started working on this game to take part in a game jam and that is how I kept the scope in control and actually completed the game, but missed the jam due to an exam. I applied a lot of the basic concepts in this game that I had learned in the past years.
-          What I learned from this project:
+          I have been working with a group of volunteers on a passion project titled Beyond Heroes and recently I finished a functional prototype complete with a backend and cross PC matches over Steam Online Subsystem. The build went through a lot of iterations before it could be playable and still ended up with some bugs, but the general idea was tested succesfully and hence, we started work on the main project. Now with 2 new devs and due to my experience in making the prototype the producer gave me the responsibility of heading the UE and API related work and guiding the other devs.
+          What I have been doing since last month:
           <ul>
-            <li>Main Menu and Pause Menu</li>
-            <li>Lots of debugging</li>
-            <li>Adding Music and Effects</li>
-            <li>Packaging and Testing</li>
+            <li>Modularizing Systems and Defining Base Architecture for each unit</li>
+            <li>Defining the Communication Protocols and Guiding Implementations</li>
+            <li>Reviewing PRs, Fixing Bugs and following through on the Roadmap</li>
+            <li>Generally just tying everything together and making sure things work</li>
           </ul>
-          I also realized the limitations of Blueprints and hence started to learn C++ in late 2023 and since late 2024 I have been implementing most of my UE logic in C++ and I have also gotten comfortable with multiplayer logic and replication in UE.
+          With the addition of the new devs who are already experienced with software development albeit without prior UE experience, the features are being shipped faster than ever and we expect the Alpha to be released soon as well. I also manage the internal communication of the team among the 3D modeller, Level Designer, and UE devs while also maintaing the Web API that handles player and match data.
         </p>
       </div>
 
@@ -196,7 +196,7 @@
         <div class="col-lg-6 mb-4 mb-lg-0" style="color: #ddd;">
           <h2 class="mb-4 text-info">Previous Experience</h2>
           <p>
-            Last year I joined a volunteer group of developers trying on remaking an old game in UE5, an MMOFPS with an RTS, where the other members were from different countries all working in their spare time. I joined them out of our shared love for the game and to get some experience working in a team and with senior devs. Initially I worked on the website for the team, and then moved on to other responsibilities including: 
+            I joined this volunteer group, working in their spare time, in mid 2024 out of our shared love for the old game we are trying to remake and to get some experience working in a team and with other devs. Initially I worked on the website for the team, and then moved on to other responsibilities including: 
             <ul>
               <li>Main Menu and Settings</li>
               <li>Pre-Match Inventory Selection</li>
@@ -219,7 +219,8 @@
               <li>Match End Conditions</li>
               <li>Match Post-End and Return to Lobby</li>
             </ul>
-              Even before me joining University the team's momentum had been wearing out, and having no senior dev supporting the programming side had stalled progress. Since the past 2 months I have been able to implement Player Stats Tracking and Team Resources Tracking. Learned a lot from the team while we were together <3
+              Even before me joining University the team's momentum had been wearing out, and having no senior dev supporting the programming side, had stalled progress. It took me 2 months to implement Player Stats Tracking and Team Resources Tracking at that time, but I learned a lot from the team while we were together <3 
+              Later I started to work on the complete prototype build that I could test over 2 PCs which took much longer than anticipated due to new problems on every step. I learned a lot about Packaging from that and also about execution order and how different clients process replicated functions and variables when faced with lag. That Prototype couldn't be turned into a a playable build for the community, which was the original intent, but it was a big learning opportunity and taught me about the limitations of the approaches I had used in that project.
           </p>
 
         </div>
@@ -290,15 +291,39 @@
     </div>
   </section>
 
-    <section id="prototypes" class="py-5">
-    <div class="container" style="text-align: justify;">
-      <h2 class="mb-4 text-info text-center">Current Progress</h2>
-      <p class="text-justify" style="color: #ddd;">
-        Currently I have started learning more about the underlying frameworks of Unreal Engine and about other Epic Plugins like the Gameplay Ability System. I have started by reading the documentation from Github and going through the example code. My next steps will be to make a complete game with a few good abilites and package it. I have also been picking up on the news about the current gaming scene, especially about shooter games as I am a part of that, and I have been finding ways to make games more enjoyable and approachable. Some key areas are communitation issues in team-based games, rampant cheating, etc. What I am trying to do is find ways to solve or reduce the magnitude of these issues with other non-conventional methods that have not been tried yet.
-      </p>
+  <!-- Game Section -->
+  <section id="game" class="py-5 bg-dark text-light">
+    <div class="container">
+      <div class="row align-items-center" style="text-align: justify;">
+        
+        <!-- Text Column -->
+        <div class="col-lg-6 mb-4 mb-lg-0" style="color: #eee;">
+          <h3 class="fw-bold mb-3">First Completed Game</h3>
+          <p>
+            I started by implementing features in blueprints but couldn't complete any game (due to scope creep) but then I learned my lesson and managed to complete a game by making it as simple as possible in late 2023. I started working on this game to take part in a game jam and that is how I kept the scope in control and actually completed the game, but missed the jam due to an exam. I applied a lot of the basic concepts in this game that I had learned in the past years.
+            What I learned from this project:
+            <ul>
+              <li>Main Menu and Pause Menu</li>
+              <li>Lots of debugging</li>
+              <li>Adding Music and Effects</li>
+              <li>Packaging and Testing</li>
+            </ul>
+            I also realized the limitations of Blueprints and hence started to learn C++ in late 2023 and since late 2024 I have been implementing most of my UE logic in C++ and I have also gotten comfortable with multiplayer logic and replication in UE.
+          </p>
+        </div>
+  
+        <!-- Image / Card Column -->
+        <div class="col-lg-6 text-center">
+          <div>
+            <iframe frameborder="0" src="https://itch.io/embed/2403467?bg_color=111111&amp;fg_color=cccccc&amp;link_color=0484d1&amp;border_color=a05bb5" width="552" height="167"><a href="https://surya-ai.itch.io/arrange-the-growth">Arrange the Growth by Surya_AI</a></iframe>
+            <p style="color: #eee;">Released Dec 4, 2023</p>
+          </div>
+        </div>
+  
+      </div>
     </div>
   </section>
-
+  
   <!-- Footer / Socials -->
   <footer id="contact">
     <div class="container">
@@ -312,7 +337,7 @@
         <a href="https://linkedin.com/in/rishit-pandit-255a882a7" target="_blank"><i class="bi bi-linkedin fs-3"></i></a>
         <!-- <a href="https://twitter.com/yourprofile" target="_blank"><i class="bi bi-twitter fs-3"></i></a> -->
       </div>
-      <p style="color: #ccc">last updated - Nov '25</p>
+      <p style="color: #ccc">last updated - Oct '26</p>
       <!-- <small class="text-secondary">&copy; 2025 Rishit Pandit. All rights reserved.</small> -->
     </div>
   </footer>
